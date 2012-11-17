@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CPDBarGraphViewController : UIViewController
+@interface CPDBarGraphViewController : UIViewController <CPTBarPlotDataSource, CPTBarPlotDelegate>
 
 @end
